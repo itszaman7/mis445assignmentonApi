@@ -10,7 +10,7 @@ body {
     width: 100%;
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     position: relative; 
     font-family: 'IBM Plex Sans', sans-serif;
@@ -20,6 +20,7 @@ body {
 .navbar h1 {
     padding-left: 10px;
     margin-right: 10px;
+    color: #fff;
 }
 
 
@@ -98,7 +99,21 @@ body {
     cursor: pointer; 
     border-radius: 10px; 
     font-size: 16px;
-    margin-left: 5px;
+    margin: 10px;
     outline: none;
+    border: none;
 }
 
+footer {
+    background-color: #007c5f; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+footer h1 {
+    font-size: 18px; 
+    margin: 0; 
+    font-weight: normal; 
+}
